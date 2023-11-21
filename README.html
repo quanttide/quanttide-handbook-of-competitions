@@ -324,10 +324,16 @@ document.write(`
 <h1>量潮创赛管理手册<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
 <section id="id2">
 <h2>配置<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
-<p>Git Commit前需要依赖<code class="docutils literal notranslate"><span class="pre">pre-commit</span></code>命令运行Git Commit Message格式检查。</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>pre-commit
+<p>Git Commit前需要依赖<code class="docutils literal notranslate"><span class="pre">pre-commit</span></code>命令运行：</p>
+<ul class="simple">
+<li><p>MyST Markdown格式检查。</p></li>
+<li><p>Git Commit Message格式检查。</p></li>
+</ul>
+<p>假设已经成功安装Python&gt;=3.8，下载依赖<code class="docutils literal notranslate"><span class="pre">mdformat-myst</span></code>和<code class="docutils literal notranslate"><span class="pre">pre-commit</span></code>：</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>pre-commit<span class="w"> </span>mdformat-myst
 </pre></div>
 </div>
+<p>运行：</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pre-commit
 </pre></div>
 </div>
